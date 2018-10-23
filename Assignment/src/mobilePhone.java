@@ -38,7 +38,7 @@ public class mobilePhone {
 	}
 
 
-//to string methid
+//to string method
 	
 	public String toString()
 	{
