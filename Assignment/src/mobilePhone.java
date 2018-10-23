@@ -3,6 +3,7 @@ import javafx.scene.image.Image;
 public class mobilePhone {
 //class here there is method and stuff is happening
 	
+	
 	public String manufacturer;
 	public String model;
 	public String price;
@@ -26,7 +27,7 @@ public class mobilePhone {
 	}
 	
 	
-//method
+//method for call and text
 	public static void call(){
 	       System.out.println("I am calling "+ callnum);
 	   }

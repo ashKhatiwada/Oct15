@@ -75,11 +75,11 @@ else if (choice==6) {
 else {
 	break;
 }
-		
+
 }
 		//calling in another class with methods and stuff
 		mobilePhone phn=new mobilePhone(manufact, mod, prce, carr, calnum, gettxt);
-//	phn.manufacturer=manufact;
+//	phn.manufacturer=manufacct;
 //	phn.model=mod;
 //	phn.price=prce;
 //	phn.carrier=carr;
