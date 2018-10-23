@@ -38,7 +38,8 @@ public class mobilePhone {
 	}
 
 
-//to string method
+//to string methid
+	
 	public String toString()
 	{
 		return "Manufacturer: " + manufacturer + "\n" +
