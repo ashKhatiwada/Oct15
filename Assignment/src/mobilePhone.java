@@ -1,7 +1,7 @@
 import javafx.scene.image.Image;
 
 public class mobilePhone {
-
+//class here there is method and stuff is happening
 	
 	public String manufacturer;
 	public String model;
@@ -14,7 +14,7 @@ public class mobilePhone {
 	
 	
 
-	
+	//attributes
 	public mobilePhone(String manufacturer, String model, String price,String carrier, String callnum,String gettext) {
 		this.manufacturer= manufacturer;
 		this.model= model;
@@ -26,7 +26,7 @@ public class mobilePhone {
 	}
 	
 	
-
+//method
 	public static void call(){
 	       System.out.println("I am calling "+ callnum);
 	   }
@@ -37,7 +37,7 @@ public class mobilePhone {
 	}
 
 
-
+//to string method
 	public String toString()
 	{
 		return "Manufacturer: " + manufacturer + "\n" +

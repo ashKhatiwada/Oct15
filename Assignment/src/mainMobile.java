@@ -1,3 +1,4 @@
+//main class where the program is executed 
 import java.util.Scanner;
 
 public class mainMobile {
@@ -6,20 +7,22 @@ public class mainMobile {
 	
 	public static void main(String[] args)
 	{
-		
+		//initializing variables
 		String manufact = null;
 		String mod = null;
 		String prce = null;
 		String carr = null;
 		String calnum = null;
 		String gettxt = null;
+		//having scanner for string and in
 		Scanner myScan = new Scanner(System.in);
+		//having scanner for line reading
 		Scanner myScan2= new Scanner(System.in);
-		
+		//making the choise 7 so the while loop works
 		int choice=7;
 		
 		while (choice !=0) {
-
+//menue
 		System.out.println("press 1 to enter your manufacturer?");
 	
 		System.out.println("press 2 to enter the model of your phone?");
@@ -32,7 +35,7 @@ public class mainMobile {
 		
 		System.out.println("press 6 to type the text you want to send");
 		System.out.println("press 0 to quit");
-		
+		//if else choise for things to happen
 		choice = myScan.nextInt();
 		
 		if (choice==1) {
@@ -74,6 +77,7 @@ else {
 }
 		
 }
+		//calling in another class with methods and stuff
 		mobilePhone phn=new mobilePhone(manufact, mod, prce, carr, calnum, gettxt);
 //	phn.manufacturer=manufact;
 //	phn.model=mod;
@@ -81,8 +85,9 @@ else {
 //	phn.carrier=carr;
 //	phn.callnum=calnum;
 //	phn.gettext=gettxt;
-	
+	//printing to string stuff form another class
 	System.out.println(phn);
+	//doing call method and text one.
 	phn.call();
 	phn.text();
 	
